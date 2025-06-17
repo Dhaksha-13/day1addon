@@ -1,0 +1,60 @@
+DAY3 ADDON
+
+
+class Main {
+    public static void main(String[] args) {
+        StringBuffer name= new StringBuffer();
+        name.append("Dhaksha");
+         System.out.println(name.reverse());
+         System.out.println(name);
+       
+        
+        
+    }
+}
+
+
+2.) public class StringBuilderExample {
+    public static void main(String[] args) {
+        // StringBuilder sb = new StringBuilder("Hello");
+        
+        // sb.append(" World");  // "Hello World"
+        // sb.insert(5, " Beautiful");  // "Hello Beautiful World"
+        // sb.delete(5, 15);  // "Hello World"
+        // sb.replace(6, 11, "Java");  // "Hello Java"
+        
+        // System.out.println(sb.toString());  // Prints "Hello Java"
+        
+        // sb.reverse();  // Reverses the string
+        // System.out.println(sb.toString());  // Prints "avaJ olleH"
+        
+        String name="Dhakshaharrini";
+    //     System.out.println(name.charAt(0));
+    //     System.out.println(name.charAt(1));
+    //      System.out.println(name.charAt(2));
+    //      System.out.println(name.charAt(3));
+    //     System.out.println(name.charAt(4));
+    // System.out.println(name.charAt(5));
+    //     System.out.println(name.charAt(6));
+       int n=name.length();
+        for(int i=0;i<n;i++)
+        {
+            System.out.println(name.charAt(i));
+        }
+    }
+}
+
+3.) public class StringBuilderExample {
+    public static void main(String[] args) {
+       String str="Dhaksha harrini";
+       int n=str.length();
+       int count=0;
+       for (int i=0;i<n;i++){
+           System.out.println(str.charAt(i));
+           if(str.charAt(i)=='a' ||str.charAt(i)=='e'||str.charAt(i)=='i'||str.charAt(i)=='o'||str.charAt(i)=='u') 
+          count++;
+       }
+       System.out.println(count);
+       
+    }
+}
