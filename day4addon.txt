@@ -1,0 +1,50 @@
+DAY4 ADDON
+
+
+package OopsClass;
+import java.util.Date;
+public class EncapsulationClass {
+	private String email;
+	private String username;
+	private long mobileenumber;
+	private Date age;
+	private char gender;
+	private boolean graduate;
+// setter
+	public void setEmail(String email1) {
+		this.email=email1;
+	}
+	public void setUsername(String username1) {
+		this.username=username1;
+	}
+	public void setMobilenumber(String mobilenumber1) {
+		this.mobilenumber=mobilenumber11;
+	}
+	public void setAge(String age1) {
+		this.age=age1;
+	}
+	public void setGender(String gender1) {
+		this.gender=gender1;
+	}
+	public void setGraduate(String graduate1) {
+		this.graduate=graduate;
+	}
+// getter
+	public String getEmail() {
+		return email;
+	}
+	public String getusername(String username) {
+		return username;
+	}
+	public String getMobilenumber(String mobilenumber) {
+		return mobilenumber;
+	}
+	public String getAge(String age) {
+		return age;
+	}
+	public String getGender(String gender) {
+		return gender;
+	}
+	public String getGraduate(String graduate) {
+		return graduate;
+	}
